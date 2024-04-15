@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image-slider</title>
+  <script src="https://kit.fontawesome.com/ed371638f6.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="slides-container">
+    <button class="slider-btn slide-left is-hidden"><i class="fa-solid fa-circle-left"></i></button>
+    <div class="track-container">
+      <ul class="slider-track">
+        <li class="img-slide current-slide-li">
+          <img class="slide-img" src="img/slide-1.jpg" alt="image">
+        </li>
+        <li class="img-slide">
+          <img class="slide-img" src="img/slide-2.jpg" alt="image">
+        </li>
+        <li class="img-slide">
+          <img class="slide-img" src="img/slide-3.jpg" alt="image">
+        </li>
+        <li class="img-slide">
+          <img class="slide-img" src="img/slide-4.jpg" alt="image">
+        </li>
+        <li class="img-slide">
+          <img class="slide-img" src="img/slide-5.jpg" alt="image">
+        </li>
+      </ul>
+    </div>
+    <button class="slider-btn slide-right"><i class="fa-solid fa-circle-right"></i> </button>
+
+    <div class="slides-nav">
+      <button class="slide-indicator current-slide"></button>
+      <button class="slide-indicator"></button>
+      <button class="slide-indicator"></button>
+      <button class="slide-indicator"></button>
+      <button class="slide-indicator"></button>
+    </div>
+  </div>
+</body>
+
+</html>
